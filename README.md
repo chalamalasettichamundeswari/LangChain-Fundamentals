@@ -1,3 +1,28 @@
+# Prerequisites
+
+- Python 3.8 or higher (recommended)
+- [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (optional, for easy environment management)
+- JupyterLab or Jupyter Notebook
+- Git (for cloning the repository)
+
+## Environment Setup
+
+You can use Anaconda/Miniconda to create and manage your Python environment:
+
+```bash
+conda create -n langchain-env python=3.10
+conda activate langchain-env
+```
+Or use Python's built-in venv:
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+Then install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 # LangChain Project
 
 This project demonstrates how to use LangChain and related tools for document loading, text splitting, embeddings, vector search, and retrieval-augmented generation (RAG) workflows. It includes examples using OpenAI, Ollama, Hugging Face, Faiss, and Chroma.
