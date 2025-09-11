@@ -1,6 +1,3 @@
-# LangChain-Fundamentals
-LangChain Fundamentals is a starter project showing how to use LangChain for document loading, text splitting, embeddings, and vector search. It includes Jupyter notebooks and sample code for building AI-powered data workflows and retrieval applications.
-
 # LangChain Project
 
 This project demonstrates how to use LangChain and related tools for document loading, text splitting, embeddings, vector search, and retrieval-augmented generation (RAG) workflows. It includes examples using OpenAI, Ollama, Hugging Face, Faiss, and Chroma.
